@@ -216,6 +216,7 @@ h1 {
 
 .status, .story, .reason, .colophon p { color: var(--muted); line-height: 1.45; }
 .status { margin: 8px 0 0; min-height: 2.8em; }
+.summary { margin: 6px 0 0; color: var(--muted); }
 .story { margin: 12px 0 0; }
 .reason { margin: 8px 0 0; color: var(--ink); }
 

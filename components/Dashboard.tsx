@@ -297,7 +297,8 @@ export function Dashboard() {
             <div className="panel-head">
               <div>
                 <p className="kicker">Proposal {round.index}</p>
-                <h2>{round.policy.summary}</h2>
+                <h2>{round.policy.name}</h2>
+                <p className="summary">{round.policy.summary}</p>
               </div>
             </div>
             <pre className="code">
